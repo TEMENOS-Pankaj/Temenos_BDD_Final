@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="112.009183">
+<testcase classname="Temenos T24 Deposit creation Feature" name="Temenos T24 Deposit creation Test Scenario" time="112.009183">
+<system-out><![CDATA[Given Input data for Deposit "TC_01"........................................passed
+Given user logs into application............................................passed
+Then user navigates to Deposit page.........................................passed
+When title of page is AA ARRANGEMENT ACTIVITY...............................passed
+Then user inputs Deposit values in fields "TC_01"...........................passed
+And logout from the App.....................................................passed
+Then user logs into the application as a admin..............................passed
+Then user input the command in the text box "ENQ AA.ARRANGEMENT.ACTIVITY-NAU".passed
+Then user authorises the deposit created "TC_01"............................passed
+And logout from the App.....................................................passed
+Then user logs into the application as a admin..............................passed
+Then user validates the deposit "TC_01".....................................passed
+And logout from the App.....................................................passed
+Given user logs into application............................................passed
+Then user input the command in the text box "ENQ TXN.ENTRY.MB"..............passed
+Then user verifies transaction entries "TC_01"..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

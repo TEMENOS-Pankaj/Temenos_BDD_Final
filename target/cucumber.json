@@ -1,0 +1,283 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 26,
+        "name": "Temenos T24 Deposit creation Test Scenario",
+        "description": "",
+        "id": "temenos-t24-deposit-creation-feature;temenos-t24-deposit-creation-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 314430451,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Input data for Deposit \"TC_01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC_01",
+                  "offset": 24
+                }
+              ],
+              "location": "DepositStepDefinition.prerequisite_for_deposit(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4445725060,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logs into application",
+            "match": {
+              "location": "LoginStepDefinition.user_logs_into_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4438733705,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to Deposit page",
+            "match": {
+              "location": "DepositStepDefinition.user_navigates_to_Deposit_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1483132601,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "title of page is AA ARRANGEMENT ACTIVITY",
+            "match": {
+              "location": "DepositStepDefinition.title_of_page_is_AA_ARRANGEMENT_ACTIVITY()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51360755745,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user inputs Deposit values in fields \"TC_01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC_01",
+                  "offset": 38
+                }
+              ],
+              "location": "DepositStepDefinition.user_inputs_Deposit_values_in_fields(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1027693203,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "logout from the App",
+            "match": {
+              "location": "LoginStepDefinition.logOutApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5770272623,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user logs into the application as a admin",
+            "match": {
+              "location": "LoginStepDefinition.user_logs_into_application_with_admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2292794204,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user input the command in the text box \"ENQ AA.ARRANGEMENT.ACTIVITY-NAU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ENQ AA.ARRANGEMENT.ACTIVITY-NAU",
+                  "offset": 40
+                }
+              ],
+              "location": "IndCustomerStepDefinition.user_input_the_command_in_the_text_box(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18099346262,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user authorises the deposit created \"TC_01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC_01",
+                  "offset": 37
+                }
+              ],
+              "location": "DepositStepDefinition.user_authorises_the_deposit_created(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1050703316,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "logout from the App",
+            "match": {
+              "location": "LoginStepDefinition.logOutApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3992125020,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user logs into the application as a admin",
+            "match": {
+              "location": "LoginStepDefinition.user_logs_into_application_with_admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7121178350,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user validates the deposit \"TC_01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC_01",
+                  "offset": 28
+                }
+              ],
+              "location": "DepositStepDefinition.user_validates_the_deposit(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1251986558,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "logout from the App",
+            "match": {
+              "location": "LoginStepDefinition.logOutApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3848757462,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user logs into application",
+            "match": {
+              "location": "LoginStepDefinition.user_logs_into_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2204019026,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user input the command in the text box \"ENQ TXN.ENTRY.MB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ENQ TXN.ENTRY.MB",
+                  "offset": 40
+                }
+              ],
+              "location": "IndCustomerStepDefinition.user_input_the_command_in_the_text_box(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3307529550,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user verifies transaction entries \"TC_01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC_01",
+                  "offset": 35
+                }
+              ],
+              "location": "DepositStepDefinition.user_verifies_transaction_entries(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@DepositFunction"
+          }
+        ]
+      }
+    ],
+    "name": "Temenos T24 Deposit creation Feature",
+    "description": "",
+    "id": "temenos-t24-deposit-creation-feature",
+    "keyword": "Feature",
+    "uri": "Deposit.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@DepositFunction"
+      }
+    ]
+  }
+]

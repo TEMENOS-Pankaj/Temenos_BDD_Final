@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Temenos Test Suite" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
+  <parameter name="configFile" value="config.properties" />
+	<test name="Temenos Test" annotations="JDK" preserve-order="true">
+		<classes>
+			<!--<class name="MyRunner.IndCustomerRunner" />
+			<class name="MyRunner.SavingAccountRunner" /
+			<class name="MyRunner.TakeLoanRunner" />-->
+			
+			<class name="MyRunner.DepositRunner" />
+			<!--<class name="MyRunner.FundTransferAccFunctionRunner" />  
+			<class name="MyRunner.TakeLoanRunner" />
+			<class name="MyRunner.LoanDisbursementRunner" /> 
+			 <class name="MyRunner.VerificationofAcctEntriesAftrDisbursementRunner" />
+			<class name="MyRunner.SecurityBuyOrderRunner" />
+			<class name="MyRunner.SettlementRunner" />
+			<class name="MyRunner.DepositInterestAccuralRunner" />  	
+		   	<class name="MyRunner.AmendmentOfShortTermDepositForIndCustomerRunner" />
+			<class name="MyRunner.AmendmentofThreeMonthsDepositForIndRunner" />
+			<class name="MyRunner.CreateOutwardRemittancewithMT103Runner" />
+			<class name="MyRunner.DepositForeignCurrencyRunner" />
+			<class name="MyRunner.FundTransferRunner" />
+			 <class name="MyRunner.DepositMaturityRunner" />
+			<class name="MyRunner.DepositReversalRunner" />
+			<class name="MyRunner.DepositReversalSixRunner" />
+			<class name="MyRunner.ExistingTaxRate_depositRunner" />
+			<class name="MyRunner.ForexSpotRunner" 	/>
+			<class name="MyRunner.FundTransferRunner" />
+			<class name="MyRunner.FxForwardTransactionRunner" />
+			<class name="MyRunner.MoneyMarketRunner" />
+			<class name="MyRunner.ReverseForwardTransactionRunner" 	/>
+			<class name="MyRunner.RolloverShortRunner" />
+			<class name="MyRunner.RolloverThreeRunner" />
+			<class name="MyRunner.RolloverSixRunner" />
+			<class name="MyRunner.TellerCreationRunner" />
+			<class name="MyRunner.ValidateAccountingEntries9months" />
+			<class name="MyRunner.Verification9monthsDepositRunner" />-->
+	
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Temenos Test Suite]" parallel="tests">
+  <parameter name="configFile" value="config.properties"/>
+  <test thread-count="1" name="Temenos Test(failed)" parallel="tests">
+    <classes>
+      <class name="MyRunner.DepositMaturityRunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="setUpClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="tearDownClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- MyRunner.DepositMaturityRunner -->
+    </classes>
+  </test> <!-- Temenos Test(failed) -->
+</suite> <!-- Failed suite [Temenos Test Suite] -->
